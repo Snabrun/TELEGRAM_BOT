@@ -41,7 +41,7 @@ def handle_start(message):
         while True:
             
             check_api(message)
-            time.sleep(1)
+            time.sleep(30)
 
 
 def check_api(message):
